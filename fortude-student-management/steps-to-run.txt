@@ -1,0 +1,11 @@
+backend- 
+npm install
+make 3 tabs
+
+running ports -
+redis - http://localhost:8081/
+socket cluster- http://localhost:8000/
+
+npm run start:dev                      cd socketapp                        docker-compose up
+                                       node server
+                                       
