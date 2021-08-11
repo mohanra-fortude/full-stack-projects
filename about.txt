@@ -1,0 +1,3 @@
+Frontend- angular
+Backend -nest with typeorm, graphql, postgraphile
+DB- Postgre
