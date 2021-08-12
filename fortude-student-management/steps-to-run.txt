@@ -19,4 +19,4 @@ npm run start:dev                      cd socketapp                        docke
                                        
                     
  2. for backend-crud
- npm run start:dev                        
+ npm run start:dev                 npx postgraphile -c "postgres://postgres:root@localhost/Student" --watch --enhance-graphiql --dynamic-json       
