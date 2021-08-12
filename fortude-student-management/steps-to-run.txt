@@ -1,7 +1,3 @@
-backend- 
-npm install
-make 3 tabs
-
 running ports -
 redis - http://localhost:8081/
 socket cluster- http://localhost:8000/
@@ -10,13 +6,13 @@ postgraphile- http://localhost:5000/graphql
 backend-uploads- http://localhost:3000/graphql
 backend-crud-http://localhost:4000/graphql
 
-open 3 folders - frontend, backend-uploads-3000 port no, backend-crud->4000
+open 3 folders - frontend, backend-uploads->3000, backend-crud->4000
 
 
-1. for backend-uploads-
+1. for backend-uploads- 3 tabs
 npm run start:dev                      cd socketapp                        docker-compose up 
                                        node server                       -> if this is not happening if redis is there in local then go to downloads, click on redis-server.exe
                                        
                     
- 2. for backend-crud
+ 2. for backend-crud  - 2 tabs
  npm run start:dev                 npx postgraphile -c "postgres://postgres:root@localhost/Student" --watch --enhance-graphiql --dynamic-json       
