@@ -10,9 +10,12 @@ open 3 folders - frontend, backend-uploads->3000, backend-crud->4000
 
 
 1. for backend-uploads- 3 tabs
-npm run start:dev                      cd socketapp                        docker-compose up 
-                                       node server                       -> if this is not happening if redis is there in local then go to downloads, click on redis-server.exe
+   npm run start:dev                      cd socketapp                        docker-compose up 
+                                          node server                     -> if this is not happening if redis is there in local then go to downloads, click on redis-server.exe
                                        
                     
  2. for backend-crud  - 2 tabs
- npm run start:dev                 npx postgraphile -c "postgres://postgres:root@localhost/Student" --watch --enhance-graphiql --dynamic-json       
+    npm run start:dev                 npx postgraphile -c "postgres://postgres:root@localhost/Student" --watch --enhance-graphiql --dynamic-json       
+ 
+ 3. frontend 
+    ng serve --open
