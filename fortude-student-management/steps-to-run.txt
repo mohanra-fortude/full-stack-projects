@@ -6,6 +6,6 @@ running ports -
 redis - http://localhost:8081/
 socket cluster- http://localhost:8000/
 
-npm run start:dev                      cd socketapp                        docker-compose up
+npm run start:dev                      cd socketapp                        docker-compose up  -> if this is not happening then go to downloads, click on redis-server.exe
                                        node server
                                        
