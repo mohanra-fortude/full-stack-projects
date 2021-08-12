@@ -1,7 +1,7 @@
 running ports -
 redis - http://localhost:8081/
 socket cluster- http://localhost:8000/
-frontend- http://localhost:
+frontend- http://localhost:4200
 postgraphile- http://localhost:5000/graphql
 backend-uploads- http://localhost:3000/graphql
 backend-crud-http://localhost:4000/graphql
