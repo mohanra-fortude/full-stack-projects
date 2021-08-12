@@ -14,8 +14,9 @@ open 3 folders - frontend, backend-uploads-3000 port no, backend-crud->4000
 
 
 1. for backend-uploads-
-npm run start:dev                      cd socketapp                        docker-compose up  -> if this is not happening then go to downloads, click on redis-server.exe
-                                       node server
+npm run start:dev                      cd socketapp                        docker-compose up 
+                                       node server                       -> if this is not happening if redis is there in local then go to downloads, click on redis-server.exe
+                                       
                     
  2. for backend-crud
  npm run start:dev                        
