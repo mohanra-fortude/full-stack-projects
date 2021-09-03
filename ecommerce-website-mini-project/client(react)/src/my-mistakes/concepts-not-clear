@@ -1,0 +1,14 @@
+setState where can be used? --------inside lifecycle methods, after event trigger call a function and use setState inside that
+you can't change the props inside the component you are using it, you can only use it 
+
+onClick={()=>{ console.log(); func()}  }            //can do any js code inside onClick need not be a single line 
+
+total Amount not able to pass as prop, it should be taken from ProductList pass to Product then to cart..passing at same level not possible
+ ---sould I use redux? -or use history and pass prop
+
+ onSubmit={()=>Home()} can't you call a component after submitting a form ? should use history.push ?
+
+using material ui in class components  -theme has type any 
+
+type=number in input of form , still is taking as string when I did typof ...should write separate state variable for each field, can't write an object and set it at once
+

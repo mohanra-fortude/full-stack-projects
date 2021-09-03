@@ -1,0 +1,3 @@
+*change quantity in store- if you add new var quantity and do  [...store, { ...action.product, productQty: action.quantity }] then
+ new thing quantity is created and the card gets displayed as many times as you press on + icon with quantity as 2
+* only solution is map through array and change the productqty by taking product Id

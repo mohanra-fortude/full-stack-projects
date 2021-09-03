@@ -1,0 +1,69 @@
+write console, map  inside render
+declare the variables outside the class
+write user defined function inside class before render
+if you are creating a function, no need to declare it as props.no need to write function keyword or to use arrow function.it is just fun1(){}
+       write it in class before render, call it inside render {this.fun1()}
+
+
+import
+
+
+var declaration --for hooks
+Prop and State type declaration  
+
+
+
+
+class Test(){
+  state: State ={...... }
+
+  user defined functions
+  function abc(){}
+  console.log()
+
+  no need to use "this" here
+
+ render(){
+      console.log()
+      
+  return(
+       HTML
+       <h1>hello</h1>
+       {this.state.var_name}{this.props.var_name}
+       this.state.abc()
+  )
+ }
+
+
+}
+
+
+in functional components there is no 'this', access prop with prop name after extracting
+
+
+function Header({ extracting props}) {
+     console.log()
+     function hello{
+
+     }
+     function there(no:number){
+          console.log(number)
+     }
+
+     function abc(x: number) {
+        console.log("hello", x);
+     }
+     
+     return ({
+          <h1>hjkl</h1>
+          {hello}
+          {hi}
+          {there(20)}
+          onClick={()=> abc(30)}    //when you have to call func with parameter after an event use arrow func
+
+     })
+}
+
+when you want to call function of other component, pass function as prop to your component
+and use it in your component, pass parameter and thereby function of other component is executed by taking parameter from your component
+

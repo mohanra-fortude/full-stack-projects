@@ -1,0 +1,11 @@
+look at the response of backend and accordingly write data type in frontend
+test the response in swagger or in postman
+lifecycle method execution 
+      constructor
+      render
+      componentDidMount
+when state changes, re-rendering happens
+      render
+
+so when updation in state happens render may be called again internally only stmts inside render called not return 
+

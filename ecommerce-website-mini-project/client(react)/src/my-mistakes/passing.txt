@@ -1,0 +1,5 @@
+<Header param1={value1}  param2={value2} />
+
+onclick={() => Header(--------params-------)}  or onclick={Header(.....params.....)}
+
+

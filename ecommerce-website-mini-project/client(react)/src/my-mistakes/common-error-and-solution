@@ -1,0 +1,8 @@
+1.this.props --can see all properties in developer tool. But to extract or print those properties, have to import something
+  Property 'classes' does not exist on Read only 
+      --then import the correct one
+       -- or write Component<{ classes: object }>
+       --  Component<any,any>   ---can extract any Property
+2. If some function is not working using variable with func, then store it in another variable and check. If it is working, then onlytry using the same
+   old method. If not working, use the new variable, use it or assign it to old variable
+ 
