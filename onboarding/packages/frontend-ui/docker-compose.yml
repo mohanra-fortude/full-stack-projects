@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  ui-frontend:
+    container_name: ui
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+      - "/app/node_modules"
+    ports:
+      - 8080:80
+    environment:
+      - CHOKIDAR_USEPOLLING=true

@@ -1,0 +1,14 @@
+@import "~antd/dist/antd.css";
+
+.candidate-details {
+  padding: 0 3.125rem;
+}
+
+.candidate-details__content {
+  min-height: 31.25rem;
+  padding: 3.125rem;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+#employee {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.space {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+
+/* h2 {
+    position: fixed;
+    left: 16.5rem;
+} */

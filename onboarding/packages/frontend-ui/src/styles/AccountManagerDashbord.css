@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.site-layout-accountMan-background {
+  padding: 44px 24px 24px 40px;
+  margin: 0;
+  min-height: 450px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-flow: flex-start;
+  border-radius: 10px;
+}
+
+.accountDashRow {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+.accountManagerBread {
+  width: 800px;
+  /* margin-left: 25px; */
+}
+
+.leaderBread {
+  margin: 0 25px;
+}
+.bigNumbers {
+  font-size: 1.3rem;
+  margin-top: 0rem;
+  font-family: "Roboto', sans-serif";
+}
+.cardMain {
+  margin: 25px;
+}
+.cardMenu {
+  height: 120px;
+  /* margin-top: 50px; */
+  width: 232px;
+  padding: auto;
+  border-radius: 10px;
+  font-family: "Roboto', sans-serif";
+}
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .site-layout-accountMan-background {
+    /* padding: 44px 24px 24px 40px; */
+    margin: 0;
+    min-height: 450px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .accountDashRow {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  .bigNumbers {
+    font-size: 1.3rem;
+    margin-top: 0rem;
+  }
+  .accountManagerBread {
+    width: 100%;
+  }
+  .cardMenu {
+    height: 120px;
+    margin-top: 50px;
+    width: 232px;
+    margin: 25px;
+    border-radius: 3px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardMenu {
+    height: 110px;
+    margin-top: 40px;
+    width: 180px;
+  }
+  .bigNumbers {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+  h4 {
+    font-size: 15px;
+    margin-left: -18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cardMenu {
+    height: 100px;
+    margin-top: 40px;
+    width: 170px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cardMenu {
+    height: 75px;
+    margin-top: 40px;
+    width: 190px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+    margin-top: -1rem;
+  }
+  h4 {
+    font-size: 12px;
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .cardMenu {
+    height: 75px;
+    margin-top: 40px;
+    width: 150px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+    margin-top: -1rem;
+  }
+  h4 {
+    font-size: 11px;
+    margin-left: -21px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .cardMenu {
+    height: 80px;
+    margin-top: 40px;
+    width: 150px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: -3;
+  }
+  h4 {
+    font-size: 13px;
+    margin-left: -18px;
+  }
+}

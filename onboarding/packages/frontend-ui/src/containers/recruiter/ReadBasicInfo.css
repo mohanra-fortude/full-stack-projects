@@ -1,0 +1,38 @@
+.CandidateInfoData {
+    margin-top: 2rem;
+}
+
+.tab {
+    margin: 3rem 0;
+    padding: 1.5rem;
+    min-height: 70vh;
+    width: 100%;
+    background: #ffffff;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.candidateData>h1 {
+    margin: 1rem 0;
+    background-color: #87bce8;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 6px;
+}
+
+.info {
+    display: flex;
+}
+
+.info>label {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #87bce8;
+}
+
+.info>input {
+    color: black;
+    /* margin-left: .7rem; */
+    font-weight: bold;
+}

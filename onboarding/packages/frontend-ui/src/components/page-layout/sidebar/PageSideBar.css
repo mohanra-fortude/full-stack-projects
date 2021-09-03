@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import "~antd/dist/antd.css";
+Sider {
+  height: 100%;
+  background-color: #87bce8;
+}
+
+.sidebar__menu {
+  height: 100%;
+  background-color: #87bce8;
+  font-family: "Roboto', sans-serif";
+}
+
+.sidebar__item.Workspace {
+  background-color: white;  
+  height: 3.125rem !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.sidebar__item.image {
+  margin: 0 !important;
+  background-color: white;
+  height: 3.688rem !important;
+}
+
+.ant-menu-item.ant-menu-item-active.ant-menu-item-selected.sidebar__item {
+  background-color: white !important;
+  color: black;
+}
+
+.sidebar__item.navlink.active {
+  color: black;
+  font-weight: 900;
+}
+
+.sidebar__img {
+  background-color: white;
+  width: 10rem;
+  height: 3rem;
+}
+
+.sidebar__img.hide {
+  display: none;
+}

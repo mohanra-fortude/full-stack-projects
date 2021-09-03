@@ -1,0 +1,35 @@
+.error {
+    padding: 2rem;
+    margin: 1rem;
+    min-height: 30rem;
+    max-width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* .heading404 {
+    color: rgb(240, 240, 240);
+    font-size: 20rem;
+    text-shadow: 3px 20px 3px rgba(190, 190, 190, 0.6);
+} */
+
+img {
+    width: 13rem;
+}
+
+P {
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+.message {
+    margin-top: 5rem;
+}
+
+.button {
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}

@@ -1,0 +1,46 @@
+name: Deploy back-end
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./packages/backend-api
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v1
+
+      - name: Load cache
+        uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build App
+        run: npm run build:prod
+
+      - name: Generate deployment package
+        run: | 
+          zip -r deploy.zip . -x '*.git*' ".env"
+          mv deploy.zip ../../
+
+      - name: Deploy to EB
+        uses: einaregilsson/beanstalk-deploy@v17
+
+        env:
+          VERSION_LABEL: onboarding-dev-${{ github.run_id }}
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: onboarding-dev
+          environment_name: onboarding-dev
+          version_label: ${{ env.VERSION_LABEL }}
+          region: ap-south-1
+          deployment_package: deploy.zip

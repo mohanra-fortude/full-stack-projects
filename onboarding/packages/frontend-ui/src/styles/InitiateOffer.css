@@ -1,0 +1,9 @@
+.initiate-offer__modal-info-item {
+  display: flex;
+  padding: 0.313rem;
+  flex-wrap: wrap;
+}
+
+initiate-offer__view-config {
+  color: #87bce8;
+}

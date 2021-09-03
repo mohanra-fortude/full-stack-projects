@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+
+.searchaAndAddButton {
+  background-color: "white";
+  padding: "24px 24px 0 24px";
+}
+/* 
+input,select{
+  background-color: aquamarine;
+  margin: 100px;
+}
+
+select{
+  background-color: aquamarine;
+  margin: 100px;
+} */
+

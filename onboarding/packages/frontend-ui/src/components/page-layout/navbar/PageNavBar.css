@@ -1,0 +1,44 @@
+@import "~antd/dist/antd.css";
+.navbar {
+  background-color: #87bce8;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.navbar__item {
+  background-color: #87bce8;
+  width: 3.76rem;
+  height: 3.75rem;
+}
+.spacer {
+  text-indent: 100%;
+  white-space: wrap;
+  overflow: hidden;
+  flex: 1;
+  /* take all availabe space ---available between space*/
+}
+.icon {
+  background-color: #87bce8;
+  color: white;
+  margin-left: 0.438rem;
+  font-size: 1.875rem !important;
+  text-align: center;
+}
+.avatar {
+  background-color: red;
+}
+
+.end-icon {
+  margin-right: 0.625rem;
+}
+
+.bellnotifi {
+  size: 100%;
+  font-size: 2rem;
+  color: white;
+
+}
+.badgecount {
+   margin-left: -4;
+   font-size: 0.5rem;
+  }

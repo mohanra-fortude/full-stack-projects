@@ -1,0 +1,27 @@
+@import "~antd/dist/antd.css";
+
+.recuratersiteBackground {
+  background: #ffffff;
+  padding: 3%;
+  /* min-height: 37rem; */
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: stretch;
+  border-radius: 10px;
+}
+
+.recuraterCards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: stretch;
+}
+
+.recuraterCardMain {
+  margin: 15px;
+}

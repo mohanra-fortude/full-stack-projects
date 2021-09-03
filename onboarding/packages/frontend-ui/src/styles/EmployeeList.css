@@ -1,0 +1,8 @@
+@import "~antd/dist/antd.css";
+.employee-list {
+    background-color: white;
+    margin-top: 1.25rem;
+    /* height: 31.25rem; */
+    padding: 10px;
+    border-radius: 10px;
+}

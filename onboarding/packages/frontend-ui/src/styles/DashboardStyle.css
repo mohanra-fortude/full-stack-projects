@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import "~antd/dist/antd.css";
+.content {
+  background: #f0f0f0;
+  /* padding: 0 2rem 2rem; */
+  height: 70vh;
+}
+
+.breadcrumb {
+  margin: 1rem 0;
+}
+
+.background {
+  background: #ffffff;
+  padding: 3rem;
+  /* min-height: 37rem; */
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: stretch;
+  border-radius: 10px;
+}
+
+.cardmain {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  width: 200px;
+  /* height: 200px; */
+  /* padding: 100px 0; */
+  /* margin: auto; */
+  text-align: center;
+  border-radius: 1rem;
+  height: 100%;
+  font-family: "Roboto', sans-serif";
+}
+
+.bigNumbers {
+  font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .cardmain {
+    /* width: 25%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 200px;
+    /* height: 200px; */
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .cardmain {
+    /* width: 25%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    width: 200px;
+    /* height: 200px; */
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardmain {
+    /* width: 25%; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 170px;
+    /* height: 200px; */
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .cardtext {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .cardmain {
+    /* width: 25%; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 150px;
+    /* height: 200px; */
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .cardtext {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    background: #f0f0f0;
+    /* padding: 0 2rem 2rem; */
+    height: 70vh;
+  }
+
+  .breadcrumb {
+    margin: 1rem 0;
+  }
+
+  .background {
+    background: #ffffff;
+    /* padding: 2rem; */
+    /* min-height: 37rem; */
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+  }
+
+  .cardmain {
+    width: calc(50% - 40px);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardparent {
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+  }
+  .card {
+    width: 230px;
+    height: 230px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .insidecard {
+    margin: 20px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+  }
+
+  .cardtext {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .content {
+    background: #f0f0f0;
+    /* padding: 0 2rem 2rem; */
+    height: 100vh;
+  }
+
+  .breadcrumb {
+    margin: 1rem 0;
+  }
+
+  .background {
+    background: #ffffff;
+    /* padding: 2rem; */
+    /* min-height: 37rem; */
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+  }
+
+  .cardmain {
+    width: calc(50% - 40px);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardparent {
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+  }
+  .card {
+    width: 200px;
+    height: 200px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .insidecard {
+    margin: 20px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+  }
+
+  .cardtext {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    background: #f0f0f0;
+    /* padding: 0 2rem 2rem; */
+    height: auto;
+  }
+
+  .breadcrumb {
+    margin: 1rem 0;
+  }
+
+  .background {
+    background: #ffffff;
+    /* padding: 2rem; */
+    /* min-height: 37rem; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+  }
+
+  .cardmain {
+    width: calc(100% - 20px);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardparent {
+    width: 20%;
+    margin: 20px;
+    padding: 30px;
+  }
+  .card {
+    width: 250px;
+    height: 250px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 1rem;
+    height: 100%;
+  }
+
+  .insidecard {
+    margin: 20px;
+  }
+  .bigNumbers {
+    font-size: 1rem;
+  }
+
+  .cardtext {
+    font-size: 18px;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+    .dashboard {
+        display: grid;
+        align-items: center;
+        margin-top: -9rem;
+    }
+    .card {
+        width: 150px;
+        height: 110px;
+        margin-bottom: 20px;
+        left: 54px;
+        top: 10rem;
+        transform: translate(-35%, -20%);
+    }
+    .bigNumbers {
+        font-size: 0.9rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+} */
+
+/* @media screen and (min-device-width: 523px) and (max-device-width: 768px) {
+    .dashboard {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .card {
+        top: 16rem;
+    }
+    .background {
+        min-height: 30rem;
+    }
+}
+
+@media screen and (min-device-width: 888px) and (max-device-width: 1024px) {
+    .dashboard {
+        display: flex;
+    }
+    .card {
+        width: 15rem;
+        height: 11rem;
+        text-align: center;
+        top: 10rem;
+        border-radius: 1rem;
+        left: 1.5rem;
+    }
+    .background {
+        min-height: 30rem;
+    }
+    .bigNumbers {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+} */

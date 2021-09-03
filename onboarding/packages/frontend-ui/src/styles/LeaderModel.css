@@ -1,0 +1,23 @@
+#auditlog {
+    font-family: Arial, Helvetica, Times New Roman,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #auditlog td, #auditlog th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #auditlog tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #auditlog tr:hover {background-color: #ddd;}
+  
+  #auditlog th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #69c0ff;
+    color: white;
+  }
+ 
