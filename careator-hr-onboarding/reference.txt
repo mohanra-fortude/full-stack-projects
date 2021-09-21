@@ -1,1 +1,11 @@
 http://onboarding-dev.ap-south-1.elasticbeanstalk.com/
+
+
+accounts-
+
+admin- abc@careator.com    - 12345
+leader - sushmahegde18+leader@gmail.com- Sleader@123- sleader hegde
+AM - sushmahegde18+AM2@gmail.com - SushmaAm@123  -saccountmanager hegde
+HR - sushmahegde18+HR1@gmail.com - Sushmahr@123
+recruiter - sushmahegde18+rec@gmail.com - Recruiter@123  - srecruiter hegde
+candidate - sushmahegde18+candidate@gmail.com - Sushmacand123!
