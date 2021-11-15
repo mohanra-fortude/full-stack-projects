@@ -18,6 +18,8 @@
 
 ![alt text](https://github.com/sushma-hegde-coder/full-stack-projects/blob/main/careator-soccom-whatsapp%20%2B%20OLX/soccomm-backend/admin-ui/screenshots/posts2.png)
 
+![alt text](https://github.com/sushma-hegde-coder/full-stack-projects/tree/main/careator-soccom-whatsapp%20%2B%20OLX/soccomm-backend/admin-ui/screenshots/posts3.png)
+
 ## 5. Groups
 ![alt text](https://github.com/sushma-hegde-coder/full-stack-projects/blob/main/careator-soccom-whatsapp%20%2B%20OLX/soccomm-backend/admin-ui/screenshots/group.png)
 
