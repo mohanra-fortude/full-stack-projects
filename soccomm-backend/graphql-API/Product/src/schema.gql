@@ -1,0 +1,74 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+directive @key(fields: String!) on OBJECT | INTERFACE
+
+directive @extends on OBJECT | INTERFACE
+
+directive @external on OBJECT | FIELD_DEFINITION
+
+directive @requires(fields: String!) on FIELD_DEFINITION
+
+directive @provides(fields: String!) on FIELD_DEFINITION
+
+type Group {
+  id: ID!
+  product: [Product!]!
+}
+
+type User {
+  id: ID!
+  product: [Product!]!
+}
+
+type Product {
+  id: ID!
+  name: String!
+  description: String!
+  amount: String!
+  quantity: String!
+  categoryId: String!
+  groupId: String!
+  userId: String!
+  user: User!
+  category: Category!
+  group: Group!
+}
+
+type Category {
+  id: ID!
+  product: [Product!]!
+}
+
+type Query {
+  allproduct: [Product!]!
+  product(id: String!): Product!
+}
+
+type Mutation {
+  createProduct(createProductInput: CreateProductInput!): Product!
+  updateProduct(updateProductInput: UpdateProductInput!): Product!
+  removeProduct(id: String!): Product!
+}
+
+input CreateProductInput {
+  name: String!
+  categoryId: String!
+  groupId: String!
+  description: String!
+  amount: String!
+  quantity: String!
+  userId: String
+}
+
+input UpdateProductInput {
+  name: String
+  categoryId: String
+  groupId: String
+  description: String
+  amount: String
+  quantity: String
+  userId: String
+  id: Int!
+}

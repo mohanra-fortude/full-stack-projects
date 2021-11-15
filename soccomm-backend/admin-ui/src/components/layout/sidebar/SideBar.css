@@ -1,0 +1,17 @@
+/* .css-bshv44-MuiButtonBase-root-MuiListItem-root:hover{
+    background-color: #3492eb !important;
+    color:white;
+}
+
+.css-cveggr-MuiListItemIcon-root:hover{
+    color:white !important
+} */
+
+.css-bshv44-MuiButtonBase-root-MuiListItem-root.Mui-selected{
+    background-color: #3492eb !important;
+    color:white;
+}
+
+.css-cveggr-MuiListItemIcon-root.Mui-selected{
+    color:white !important
+}
