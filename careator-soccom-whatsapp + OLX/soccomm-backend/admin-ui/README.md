@@ -1,12 +1,8 @@
-# Getting Started with Create React App
+# Admin -- React, Material UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Login 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+https://github.com/sushma-hegde-coder/full-stack-projects/blob/main/careator-soccom-whatsapp%20%2B%20OLX/soccomm-backend/admin-ui/screenshots/login.png
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
